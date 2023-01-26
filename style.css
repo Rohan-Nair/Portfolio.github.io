@@ -9,7 +9,24 @@
     "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold",
     "HelveticaNeue", "Helvetica Neue", "TeXGyreHerosCnBold", "Helvetica",
     "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+  scroll-behavior: smooth;
 }
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 1em;
+  background-color: black;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 100vw;
+  background-color: rgb(162, 160, 157);
+}
+/* scrollbar end */
 :root {
   font-size: 62.5%;
   background-color: lightgrey;
