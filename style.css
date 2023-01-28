@@ -677,7 +677,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 828px) {
+@media screen and (max-width: 828px) {
   .logocontainer {
     position: relative;
     top: 0.2em;
